@@ -34,7 +34,7 @@ def spam():
         os.system('pause')
         os.system('cls')
         spam()
-    time = float(input('Delay between requests (recommended: 0.9): '))
+    time = float(input('Delay between requests (recommended: 2): '))
     os.system('cls')
     while 1:
         t.sleep(time)
